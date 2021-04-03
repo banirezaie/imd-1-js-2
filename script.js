@@ -6,14 +6,28 @@
 
 // console.log("hello");
 
-let age = 30;
+// let age = 30;
 
-if (age < 10) {
-  console.log("you are so cute");
-}
+// if (age < 10) {
+//   console.log("you are so cute");
+// }
 
-let num = 20;
+// let num = 20;
 // let odd = 19;
-if (num % 2 === 0) {
-  console.log(`${num} is an even number`);
+// if (num % 2 === 0) {
+//   console.log(`${num} is an even number`);
+// }
+
+if ( 0/0 ) {
+  console.log('IMD it"s true');
+} else {
+  console.log('IMD it"s false');
 }
+
+// let haha = prompt("type here something");
+
+// if (haha) {
+//   console.log("haha");
+// } else {
+//   console.log("nomokham");
+// }

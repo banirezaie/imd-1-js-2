@@ -8,3 +8,7 @@ let board = [ 'Harry', 'Lua', 'Hermione', 'Ballatrix' ];   //DON'T TOUCH THIS LI
 
 
 //YOUR CODE BELOW THIS LINE:
+
+board[1] = "Luna";
+board[3] = "Draco";
+console.log(board);

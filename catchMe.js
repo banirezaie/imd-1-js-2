@@ -1,17 +1,17 @@
+/** @format */
+
 //change the value of point, so that 'BUSTED!' prints out
-const point = 0; // THIS IS ONLY LINE YOU SHOULD CHANGE
+const point = 60; // THIS IS ONLY LINE YOU SHOULD CHANGE //DO NOT TOUCH ANYTHING BELOW (please)
 
-
-//DO NOT TOUCH ANYTHING BELOW (please)
 if (point <= 100) {
-console.log("are you sure??");
-if (point >= 50) {
-console.log("haha, you couldn't catch me");
-}
+  console.log("are you sure??");
+  if (point >= 50) {
+    console.log("haha, you couldn't catch me");
+  }
 } else if (point < 103) {
-if (point % 2 === 0) {
-console.log("BUSTED!");
-}
+  if (point % 2 === 0) {
+    console.log("BUSTED!");
+  }
 } else {
-console.log("yet to find me, haha!");
+  console.log("yet to find me, haha!");
 }

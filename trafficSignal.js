@@ -12,9 +12,10 @@ if (phrase === "stop") {
 } else if (phrase === "slow") {
   console.log("yellow");
 } else {
+    //nested if statements
+     if (phrase.length > 10) {
+       console.log("you phrase is not existed");
+     }
   console.log("purple");
 }
 
-if (phrase.length > 10) {
-  console.log("you phrase is not existed");
-}
