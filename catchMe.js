@@ -1,7 +1,7 @@
 /** @format */
 
 //change the value of point, so that 'BUSTED!' prints out
-const point = 60; // THIS IS ONLY LINE YOU SHOULD CHANGE //DO NOT TOUCH ANYTHING BELOW (please)
+const point = 102; // THIS IS ONLY LINE YOU SHOULD CHANGE //DO NOT TOUCH ANYTHING BELOW (please)
 
 if (point <= 100) {
   console.log("are you sure??");

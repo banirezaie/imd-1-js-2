@@ -13,6 +13,8 @@ str[ 0 ] = '5'   //impossible
 
 //you can have an array of strings
 let colors = ["red", "orange", "yellow"];
+
+console.log(colors[3]);
 // console.log(colors.length);
 // console.log(colors[0]);
 // the below code will return undefined
@@ -29,14 +31,15 @@ let colors = ["red", "orange", "yellow"];
 
 //you can have an array of numbers
 let lottoNumbers = [19, 22, 56, 12, 51];
-// lottoNumbers.push(32);
-// console.log(lottoNumbers);
-// lottoNumbers.pop();
-// console.log(lottoNumbers);
+lottoNumbers.push(32);
+console.log(lottoNumbers);
+lottoNumbers.pop();
+lottoNumbers.pop();
+console.log(lottoNumbers);
 // lottoNumbers.unshift(11);
 // console.log(lottoNumbers);
-// lottoNumbers.shift();
-// console.log(lottoNumbers);
+lottoNumbers.shift();
+console.log(lottoNumbers);
 // lottoNumbers.push(55, 11, 12);
 // console.log(lottoNumbers);
 

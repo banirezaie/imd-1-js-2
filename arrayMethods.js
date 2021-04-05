@@ -2,8 +2,12 @@ let movies = [ 'Harry Potter', '12 angry men', 'A dog"s life', 'dark coffee' ]
 
 let years = [1999, 1900, 1940, 2010, 1900];
 
+// console.log(movies[0][0]);
+
 //concat
-let newArr = movies.concat(years);
+// let newArr = movies.concat(years);
+// console.log(newArr.includes(2010));
+// console.log(movies.indexOf("nemo"));
 // console.log(newArr);
 //includes
 // if (!movies.includes("Harry Potter")) {
@@ -39,14 +43,14 @@ let newArr = movies.concat(years);
 // []
 // []
 
-// a = [];
-// b = [1, 2, 3];
-// a = b;
+a = [];
+b = [1, 2, 3, 4];
+a = b;
 
-// if (a === b) {
-//   console.log('it"s true');
-// } else {
-//   console.log("it's false");
-// }
-// console.log(a);
+if (a === b) {
+  console.log('it"s true');
+} else {
+  console.log("it's false");
+}
+console.log(a);
 
