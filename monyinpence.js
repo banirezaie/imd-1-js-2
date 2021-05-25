@@ -18,7 +18,7 @@ money(387);
 
 function money(pence){
     let pound =pence/100;
-    return =`₤${pound}`;
+    return `₤${pound}`;
 }
 console.log(money(199));
 
